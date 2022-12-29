@@ -1,0 +1,3 @@
+# Project exclude paths
+/automatic-ui-tool-core/target/
+/training-manage-test/target/

@@ -1,0 +1,7 @@
+{
+  "switchLoginStyle": "//*[@id=\"root\"]/div/div[4]/div/div[1]/div",
+  "userName": "//input[@placeholder='请输入手机号码或邮箱']",
+  "passWord": "//input[@placeholder='请输入密码']",
+  "loginButton": "//span[text()='登 录']",
+  "enterpriseName": "//div[@class='enterprise-name' and text()='AAA']"
+}
