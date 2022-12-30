@@ -1,7 +1,6 @@
 package com.playwright.utils;
 
 import com.microsoft.playwright.*;
-
 import java.util.Collections;
 
 
@@ -17,8 +16,7 @@ public class LaunchBrowser {
         BrowserContext context = browser.newContext(new Browser.NewContextOptions()
                 .setIgnoreHTTPSErrors(true)
                 .setJavaScriptEnabled(true)
-                //此处为设定指定窗口启动
-
+                //此处可以理解为设定指定窗口启动
                 .setViewportSize(1980, 1080));
         return context;
     }
